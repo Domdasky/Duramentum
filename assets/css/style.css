@@ -43,10 +43,6 @@ iframe {
   position: relative;
 }
 
-.leftauto {
-  right: 0 !important;
-  left: auto !important;
-}
 
 /* Transition elsements */
 a,
@@ -1241,9 +1237,7 @@ General Styles - Owlcarousel
 /*--------------------------------------------------------------
 	Navbar
 --------------------------------------------------------------*/
-#custom-collapse > ul > li:nth-child(5) > a {
-  margin-right: 22px;
-}
+
 
 .container li:hover {
     background-color: rgb(7, 78, 220);
@@ -1251,7 +1245,7 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom {
-  background-color: rgba(0, 51, 153, 0.9);
+  background-color: rgba(255, 255, 255, 0.89);
   border: 0;
   border-radius: 0;
   z-index: 1000;
@@ -1274,16 +1268,31 @@ General Styles - Owlcarousel
   box-shadow: none;
 }
 
+ .menu_block:before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: -45px;
+    width: 100%;
+    height: 45px;
+    background-image: url(../images/shadow.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+}
+
 .navbar-custom .navbar-brand {
   letter-spacing: 4px;
   font-weight: 400;
   font-size: 22px;
-  color: #fff;
+  color: rgb(0, 51, 153);
 }
 
 .navbar-custom .nav li > a {
   position: relative;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(0, 51, 153);
 }
 
 .navbar-custom .dropdown-menu > li > a {
@@ -1339,7 +1348,7 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
-  background: #fff;
+  background: rgb(0, 51, 153) !important;
 }
 
 .dropdown-menu {
@@ -2166,6 +2175,18 @@ Google map
   margin: 0 0 80px;
 }
 
+#custom-collapse > ul > li > a {
+  margin-right: 5px;
+}
+
+ .flex-active-slide > img {
+   width: 100%;
+ }
+
+.post-thumbnail img {
+  width: 100%;
+}
+
 .post-title {
   line-height: 1.4;
   font-size: 35px;
@@ -2711,7 +2732,7 @@ Google map
 --------------------------------------------------------------*/
 @media (min-width: 768px) {
   .navbar-transparent {
-    background: rgba(0, 51, 153, 1) ;
+    background: rgba(255, 255, 255, 0.89);
     padding-bottom: 15px;
     padding-top: 15px;
   }

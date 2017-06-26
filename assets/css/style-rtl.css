@@ -1326,7 +1326,7 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
-  background: #fff;
+  background: rgb(0, 51, 153) !important;
 }
 
 .dropdown-menu {
