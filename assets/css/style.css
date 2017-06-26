@@ -1,6 +1,14 @@
 /*--------------------------------------------------------------
 	Common
 --------------------------------------------------------------*/
+.navbar-brand>img {
+  display: inline-block;
+  height:40px;
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+
 html {
   overflow-y: scroll;
   overflow-x: hidden;
@@ -1196,8 +1204,8 @@ General Styles - Owlcarousel
   z-index: 9999;
   -webkit-animation: load 0.8s infinite linear;
   -moz-animation: load 0.8s infinite linear;
-  ms-animation: load 0.8s infinite linear;
-  o-animation: load 0.8s infinite linear;
+  -ms-animation: load 0.8s infinite linear;
+  animation: load 0.8s infinite linear;
   animation: load 0.8s infinite linear;
 }
 
@@ -1748,7 +1756,7 @@ Google map
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
   margin-left: -7px;
 }
 
@@ -1763,7 +1771,7 @@ Google map
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
   margin-left: -8px;
 }
 
@@ -2694,7 +2702,7 @@ Google map
 --------------------------------------------------------------*/
 @media (min-width: 768px) {
   .navbar-transparent {
-    background: rgba(0, 51, 153, 0.9) ;
+    background: rgba(0, 51, 153, 1) ;
     padding-bottom: 15px;
     padding-top: 15px;
   }
