@@ -1241,6 +1241,15 @@ General Styles - Owlcarousel
 /*--------------------------------------------------------------
 	Navbar
 --------------------------------------------------------------*/
+#custom-collapse > ul > li:nth-child(5) > a {
+  margin-right: 22px;
+}
+
+.container li:hover {
+    background-color: rgb(7, 78, 220);
+    transition: all 0.5s;
+}
+
 .navbar-custom {
   background-color: rgba(0, 51, 153, 0.9);
   border: 0;
@@ -1282,7 +1291,7 @@ General Styles - Owlcarousel
   padding: 11px 15px;
   letter-spacing: 2px;
   color: white;
-  background-color: rgba(0, 51, 153, 0.4)
+  background-color: rgb(7, 78, 220)
 }
 
 .navbar-custom .dropdown-menu .dropdown-menu {
@@ -2159,7 +2168,7 @@ Google map
 
 .post-title {
   line-height: 1.4;
-  font-size: 22px;
+  font-size: 35px;
   color: #111;
   margin: 0;
 }

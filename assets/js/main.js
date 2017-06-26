@@ -197,11 +197,11 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
         function hoverDropdown(width, mobileTest) {
             if ((width > 767) && (mobileTest !== true)) {
                 $('.navbar-custom .navbar-nav > li.dropdown, .navbar-custom li.dropdown > ul > li.dropdown').removeClass('open');
-                var delay = 0;
+                var delay = 100;
                 var setTimeoutConst;
                 $('.navbar-custom .navbar-nav > li.dropdown, .navbar-custom li.dropdown > ul > li.dropdown').hover(function() {
                         var $this = $(this);
-                        setTimeoutConst = setTimeout(function() {
+                        setTimeoutConst = setTimeout(function(){
                             $this.addClass('open');
                             $this.find('.dropdown-toggle').addClass('disabled');
                         }, delay);
