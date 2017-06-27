@@ -1238,10 +1238,9 @@ General Styles - Owlcarousel
 	Navbar
 --------------------------------------------------------------*/
 
-
-.container li:hover {
+.navbar li:hover {
     background-color: rgb(7, 78, 220);
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .navbar-custom {
@@ -2177,6 +2176,7 @@ Google map
 
 #custom-collapse > ul > li > a {
   margin-right: 5px;
+  font-weight: 600;
 }
 
  .flex-active-slide > img {
