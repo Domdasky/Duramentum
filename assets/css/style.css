@@ -715,7 +715,7 @@ a,
 
 .btn.btn-d:hover,
 .btn.btn-d:focus {
-  background: rgba(0, 51, 153, 0.3);
+  background: #074edc;
 }
 
 .btn.btn-b {
@@ -2702,6 +2702,10 @@ hr {
 
 .documentation-page .com {
   color: #800;
+}
+
+h2.module-title.font-alt.swag, .module-subtitle.font-serif.swag{
+  text-shadow: 1px 1px black;
 }
 
 .documentation-page .lit {
