@@ -1628,6 +1628,7 @@ Google map
 .team-item {
   position: relative;
   text-align: center;
+  margin-top: 20px;
 }
 
 .team-image {
